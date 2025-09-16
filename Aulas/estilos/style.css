@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: black;
+    color: white;
+
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
