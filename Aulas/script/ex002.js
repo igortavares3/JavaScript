@@ -15,15 +15,16 @@ window.alert (`O aluno ${nome} que tem a idade de ${idade} tirou a nota de ${not
 
 /*Localização de String: n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) */
 
-
+document. writellength
 /*var n1 = 1531
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
-
+ 
 document.writeln (`Meu salario é de ${n1}`) */
 
-var nome = window.prompt ('Qual é seu nome:? ')
+/* var nome = window.prompt ('Qual é seu nome:? ')'
 window.alert (`Olá, ${nome}! Seu nome tem ${nome.length} letras`)
 
 document.writeln (`Olá, ${nome}!. Seu nome tem ${nome.length} letras <br\>`)  
 document.writeln (`Olá ${nome.toUpperCase()} esse é seu nome em maiúsculo <br\>`)
-document.writeln (`Ola ${nome.toLowerCase()} esse é seu nome minúsculo`)
+document.writeln (`Ola ${nome.toLowerCase()} esse é seu nome minúsculo`) */ 
+
