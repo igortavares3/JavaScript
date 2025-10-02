@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="estilos/style3.css">
+</head>
+<body>
+    <h1 id="teste">Primeiro contato com o DOM</h1>
+    <p id="msg">aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div>click em mim</div>
+
+
+    <script>
+     var n1 = window.document.getElementsByTagName('p')[1]
+
+     /*var nomes = window.prompt ('Qual é seu nome?') */
+
+     var nome = document.getElementById ('teste')
+
+     
+    /* document.writeln (`Está escrito assim: ${n1.innerHTML}`) */
+
+  var d = window.document.getElementById ('msg')
+
+  d.style.background = 'blue'
+
+  d.innerText = ('tudo')
+    </script>
+
+
+</body>
+</html>
