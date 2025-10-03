@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilos/style4.css">
 </head>
 <body>
-    <div id="area" onclick="clicou()">
+    <div id="area" onclick="clicou()" onmouseenter="entrar()" onmouseout="saiu()">
 
         INTERAJA
 
@@ -15,10 +15,21 @@
 
 
     <script>
+         var a = window.document.getElementById('area')
         function clicou() {
-            var a = window.document.getElementById('area')
+            
 
             a.innerText = ('CLICOU')
+            a.style.background = ('red')
+        }
+
+        function entrar() {
+            a.innerText = ('Entrou')
+        }
+
+        function saiu() {
+            a.innerText = ('Saiu')
+            a.style.background = ('green')
         }
 
 

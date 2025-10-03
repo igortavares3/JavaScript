@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Dom</title>
+    <link rel="stylesheet" href="estilos/style5.css">
+</head>
+<body>
+    <div id="local">
+        <h1>Multiplicando os Valores</h1>
+        <input type="number" name="ivalor" id="valor"> <strong></strong>
+        <input type="button" value="Multipicação" onclick="somar()">
+        <input type="number" name="ivalor1" id="valor1">
+        <div id="resultado">
+            <h2><strong>?</strong></h2>
+        </div>
+    </div>
+
+    <div id="divisão">
+        <h1>Dividindo os Valores</h1>
+        <input type="number" name="div1" id="div1"> 
+
+        <input type="button" value="Divisão" onclick="divisão()">
+
+        <input type="number" name="div2" id="div2">
+        
+        <div id="resultado2">
+            <h2>?</h2>
+        </div>
+    </div>
+
+
+    <script>
+        function somar() {
+
+            var n1 = document.getElementById('valor')
+            var n2 = document.getElementById('valor1')
+            var res = document.getElementById('resultado')
+            var N1 = Number(n1.value)
+            var N2 = Number(n2.value)
+            var s = N1 * N2
+
+            res.innerText = (`${s}`)
+            
+
+        }
+
+        function divisão() {
+            var n3 = document.getElementById('div1')
+            var n4 = document.getElementById('div2')
+            var Div1 = Number(n3.value)
+            var Div2 = Number(n4.value)
+            var d = Div1 / Div2
+            var resd = document.getElementById('resultado2')
+
+            resd.innerText = (`A divisão entre ${Div1} e ${Div2} e: ${d}`)
+        }
+    </script>
+</body>
+</html>
